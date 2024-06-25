@@ -7,6 +7,6 @@ object sphereVolume {
 
     def  calSphereVol(radius : Double): Double = {
         val pi = Math.PI
-        (4/3) * pi * Math.pow(radius, 3)
+        (4.0/3) * pi * Math.pow(radius, 3)
     }
 }
